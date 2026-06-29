@@ -1,0 +1,81 @@
+/* ---------- GENERAL ---------- */
+
+body{
+    background:#eef3f8;
+    font-family:Segoe UI,Arial,sans-serif;
+}
+
+.navbar{
+    border-radius:0 0 15px 15px;
+}
+
+.navbar-brand{
+    font-size:1.4rem;
+    font-weight:700;
+}
+
+.card{
+    border:none;
+    border-radius:18px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.card-body{
+    padding:25px;
+}
+
+/* ---------- SEARCH ---------- */
+
+#search{
+    border-radius:12px;
+    padding:12px;
+}
+
+#drugList{
+    height:430px;
+    border-radius:12px;
+    font-size:15px;
+}
+
+/* ---------- MAP ---------- */
+
+iframe{
+    width:100%;
+    height:720px;
+    border:none;
+    border-radius:12px;
+    background:white;
+}
+
+/* ---------- BUTTON ---------- */
+
+.btn-primary{
+    margin-top:15px;
+    border-radius:10px;
+    padding:12px;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer{
+    color:#666;
+    font-size:14px;
+}
+
+/* ---------- MOBILE ---------- */
+
+@media(max-width:992px){
+
+#drugList{
+
+height:220px;
+
+}
+
+iframe{
+
+height:500px;
+
+}
+
+}
